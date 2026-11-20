@@ -6,8 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -name: say hello from the robot
-      run: echo "Pipeline started successfully"
+       run: echo "Pipeline started successfully"
       -name: Check Python version on the server
-      run: python3 --version
+       run: python3 --version
       
   
