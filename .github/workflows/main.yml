@@ -5,9 +5,9 @@ jobs:
   check-everything:
     runs-on: ubuntu-latest
     steps:
-      -name: Say hello from the robot
-       run: echo "Pipeline started successfully"
-      -name: Check Python version on the server
-       run: python --version
+      - name: Say hello from the robot
+        run: echo "Pipeline started successfully"
+      - name: Check Python version on the server
+        run: python --version
       
   
